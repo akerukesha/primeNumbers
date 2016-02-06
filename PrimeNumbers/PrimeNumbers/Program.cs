@@ -24,7 +24,7 @@ namespace ConsoleApplication1
             //1 - простое число
             return cnt == 0 && x != 1;
         }
-        static void Main()
+        static void Main(string[] args2)
         {   //для считывания значений с консоли вводится переменная, в которую передаются эти значения
             string y = Console.ReadLine();
             //т.к. значения вводились как строка, необходимо преобразовать их в элементы массива
